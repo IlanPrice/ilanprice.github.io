@@ -1,6 +1,6 @@
 (() => {
   // ns-params:@params
-  var slides = {highlight_style: "dracula", theme: "black"};
+  var slides = { highlight_style: "dracula", theme: "black" };
 
   // ns-hugo:/var/folders/1c/lbndzpfd473c0kdz94_f883h5kdfnq/T/hugo_cache/modules/filecache/modules/pkg/mod/github.com/wowchemy/wowchemy-hugo-modules/wowchemy@v0.0.0-20210606130713-db4dcf6541e5/assets/js/wowchemy-utils.js
   function fixMermaid(render = false) {
@@ -21,7 +21,7 @@
     console.debug(`Processed ${mermaids.length} Mermaid code blocks`);
   }
 
-  // js/wowchemy-slides.js
+  // <stdin>
   var enabledPlugins = [RevealMarkdown, RevealHighlight, RevealSearch, RevealNotes, RevealMath, RevealZoom];
   var isObject = function(o) {
     return o === Object(o) && !isArray(o) && typeof o !== "function";
